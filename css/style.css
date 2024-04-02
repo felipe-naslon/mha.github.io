@@ -1,0 +1,450 @@
+.pai {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 300vh;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: flex-start;
+	background-image: url(../img/logo1.png);
+	background-size: 17%;
+	background-repeat: repeat;
+}
+
+/*Logo*/
+
+.filho0{
+	width: 100%;
+	height: 35vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	backdrop-filter: brightness(30%);
+}
+
+.logo {
+	width: auto;
+	height: 30vh;
+}
+
+/*Navegação entre páginas*/
+
+.filho1 {
+	width: 100%;
+	height: 6vh;
+	background-color: silver;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.aba0 {
+	width: 500px;
+	height: 4vh;
+	background-color: red;
+	display: flex;
+	border-radius: 15px;
+}
+
+.aba1 {
+	width: 500px;
+	height: 4vh;
+	background-color: red;
+	display: flex;
+	border-radius: 15px;
+}
+
+a {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: yellow; /* Cor do texto */
+	text-decoration: none; /* Remove o sublinhado */
+	transition: color 0.3s ease; /* Transição suave da cor do texto */
+	font-family: Arial, sans-serif; /* Fonte do texto */
+	font-size: 20px; /* Tamanho do texto */
+}
+
+a:hover {
+	background-color: yellow; /* Cor de fundo ao passar o mouse */
+	color: red; /* Nova cor do texto ao passar o mouse */
+	border-radius: 12px;
+}
+
+/*Conteúdo*/
+
+.filho2 {
+	width: 100%;
+	height: 240vh;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+	backdrop-filter: brightness(30%);
+	padding: 30px;
+}
+
+.absoluto {
+	color: white;
+	font-family: sans-serif;
+	align-items: center;
+	position: absolute;
+}
+
+/*Elenco*/
+
+.elenco {
+	width: 90%;
+	display: flex;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+#info {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	backdrop-filter: blur(50px);
+	text-align: center;
+	align-items: center;
+	display: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+
+/*hovers*/
+
+.rody:hover #info {
+	display: block;
+}
+
+.deku:hover #info {
+	display: block;
+}
+
+.bakugo:hover #info {
+	display: block;
+}
+
+.shoto:hover #info {
+	display: block;
+}
+
+.flect:hover #info {
+	display: block;
+}
+
+.allmight:hover #info {
+	display: block;
+}
+
+.hawks:hover #info {
+	display: block;
+}
+
+.ochako:hover #info {
+	display: block;
+}
+
+.tsuyu:hover #info {
+	display: block;
+}
+
+.momo:hover #info {
+	display: block;
+}
+
+.jiro:hover #info {
+	display: block;
+}
+
+.nejire:hover #info {
+	display: block;
+}
+
+.endeavor:hover #info {
+	display: block;
+}
+
+.fatgum:hover #info {
+	display: block;
+}
+
+.fumikage:hover #info {
+	display: block;
+}
+
+/*Personagens*/
+
+.rody {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/rody.jpg);
+}
+
+.deku {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/deku.jpg);
+}
+
+.bakugo {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/bakugo.jpg);
+}
+
+.shoto {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/shoto.jpg);
+}
+
+.flect {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/flect.jpg);
+}
+
+.allmight {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/allmight.jpg);
+}
+
+.hawks {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/hawks.jpg);
+}
+
+.ochako {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/ochako.jpg);
+}
+
+.tsuyu {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/tsuyu.jpg);
+}
+
+.momo {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/momo.jpg);
+}
+
+.jiro {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/jiro.jpg);
+}
+
+.nejire {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/nejire.jpg);
+}
+
+.endeavor {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/endeavor.jpg);
+}
+
+.fatgum {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/fatgum.jpg);
+}
+
+.fumikage {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	background-size: cover;
+	display: flex;
+	background-image: url(../img/fumikage.jpg);
+}
+
+/*Página Inicial*/
+
+.texto0 {
+	width: 35%;
+	height: 228vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+.text0 {
+	color: white;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: sans-serif;
+}
+.text1 {
+	color: white;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: sans-serif;
+
+}
+
+.texto1 {
+	width: 35%;
+	height: 238vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pic0 {
+	width: 100%;
+	height: 280px;
+}
+
+.pic1 {
+	width: 100%;
+	height: 250px;
+}
+
+.pic2 {
+	width: 80%;
+	height: 450px;
+	
+}
+
+.divulgacao {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+}
+
+.banner1 {
+	width: 100%;
+	height: 650px;
+}
+
+/*trailers*/
+
+.filho4 {
+	width: 100%;
+	height: 240vh;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+	backdrop-filter: brightness(30%);
+	padding: 30px;
+}
+
+.trailer {
+	width: 90%;
+	height: 240vh;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 15px;
+}
+
+.play {
+	padding-top: 80px;
+}
+
+.sinopse {
+	color: white;
+	width: 100%;
+	height: 118vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.text2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.banner2 {
+	width: 65%;
+	height: auto;
+}
+
+/*Rodapé*/
+
+.filho3 {
+	width: 100%;
+	height: 20vh;
+	background-color: silver;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background-image: url(../img/footer3.webp);
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.rodape {
+	font-size: 17px;
+	color: white;
+	font-family: sans-serif;
+}
